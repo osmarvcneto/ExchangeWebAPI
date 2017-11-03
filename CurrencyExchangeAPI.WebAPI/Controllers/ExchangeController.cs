@@ -29,6 +29,7 @@ namespace CurrencyExchangeAPI.WebAPI.Controllers
         [HttpGet]
         public IActionResult Get()
         {
+            //Teste de commit
             return Ok(_mapper.Map<IEnumerable<Currency>, IEnumerable<CurrencyModel>>(_currencyService.GetAll()));
         }
 
