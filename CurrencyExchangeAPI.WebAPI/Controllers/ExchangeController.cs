@@ -20,6 +20,7 @@ namespace CurrencyExchangeAPI.WebAPI.Controllers
 
         public ExchangeController(ICurrencyService currencyService, IMapper mapper)
         {
+
             _currencyService = currencyService;
             _mapper = mapper;
         }
